@@ -1,4 +1,21 @@
 {
+  "name": "empleados",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicodonazzon/Empleados.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicodonazzon/Empleados/issues"
+  },
+  "homepage": "https://github.com/nicodonazzon/Empleados#readme",
   "devDependencies": {
     "typescript": "^5.1.3"
   }
