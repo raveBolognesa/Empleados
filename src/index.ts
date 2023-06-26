@@ -9,6 +9,12 @@ interface Employee {
 }
 
 class NewEmpleyee implements Employee {
+
+    name: string
+    surname: string
+    salary: number
+    contractDate: Date;
+
     constructor(
         name: string,
         surname: string,
@@ -19,11 +25,6 @@ class NewEmpleyee implements Employee {
         this.salary = salary
         this.contractDate = new Date()
     }
-
-    name: string
-    surname: string
-    salary: number
-    contractDate: Date;
 
     calculateSalary(): number {
         return 0;
